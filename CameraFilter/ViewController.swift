@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var applyFilterButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.applyFilterButton.isHidden = true
         // Do any additional setup after loading the view.
     }
 

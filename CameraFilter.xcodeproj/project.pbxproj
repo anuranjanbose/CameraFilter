@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D47B39B2492BE2B008B201F /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D47B39A2492BE2B008B201F /* PhotosCollectionViewController.swift */; };
 		7D5F775B2492BC600057A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F775A2492BC600057A0EE /* AppDelegate.swift */; };
 		7D5F775D2492BC600057A0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F775C2492BC600057A0EE /* SceneDelegate.swift */; };
 		7D5F775F2492BC600057A0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F775E2492BC600057A0EE /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D47B39A2492BE2B008B201F /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		7D5F77572492BC600057A0EE /* CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5F775A2492BC600057A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D5F775C2492BC600057A0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				7D5F77632492BC610057A0EE /* Assets.xcassets */,
 				7D5F77652492BC610057A0EE /* LaunchScreen.storyboard */,
 				7D5F77682492BC610057A0EE /* Info.plist */,
+				7D47B39A2492BE2B008B201F /* PhotosCollectionViewController.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				7D5F775F2492BC600057A0EE /* ViewController.swift in Sources */,
 				7D5F775B2492BC600057A0EE /* AppDelegate.swift in Sources */,
 				7D5F775D2492BC600057A0EE /* SceneDelegate.swift in Sources */,
+				7D47B39B2492BE2B008B201F /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
