@@ -25,6 +25,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iue-VB-Xhq">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                         <state key="normal" title="Add Filter"/>
+                                        <connections>
+                                            <action selector="applyFilter" destination="BYZ-38-t0r" eventType="touchUpInside" id="Few-3Z-sHi"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
