@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3904B7BD56A064B9FA4BF96C /* Pods_CameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9517777E734AEF8E66071047 /* Pods_CameraFilter.framework */; };
+		7D03F32C2494A59F000E94C1 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D03F32B2494A59F000E94C1 /* PhotoCollectionViewCell.swift */; };
 		7D47B39B2492BE2B008B201F /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D47B39A2492BE2B008B201F /* PhotosCollectionViewController.swift */; };
 		7D5F775B2492BC600057A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F775A2492BC600057A0EE /* AppDelegate.swift */; };
 		7D5F775D2492BC600057A0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5F775C2492BC600057A0EE /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D03F32B2494A59F000E94C1 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		7D47B39A2492BE2B008B201F /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		7D5F77572492BC600057A0EE /* CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5F775A2492BC600057A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +52,6 @@
 				E5E84824E1E61459F3F3F73E /* Pods-CameraFilter.debug.xcconfig */,
 				7E395056C32B2AB8578D1C0F /* Pods-CameraFilter.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,6 +84,7 @@
 				7D5F77652492BC610057A0EE /* LaunchScreen.storyboard */,
 				7D5F77682492BC610057A0EE /* Info.plist */,
 				7D47B39A2492BE2B008B201F /* PhotosCollectionViewController.swift */,
+				7D03F32B2494A59F000E94C1 /* PhotoCollectionViewCell.swift */,
 			);
 			path = CameraFilter;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D5F775F2492BC600057A0EE /* ViewController.swift in Sources */,
+				7D03F32C2494A59F000E94C1 /* PhotoCollectionViewCell.swift in Sources */,
 				7D5F775B2492BC600057A0EE /* AppDelegate.swift in Sources */,
 				7D5F775D2492BC600057A0EE /* SceneDelegate.swift in Sources */,
 				7D47B39B2492BE2B008B201F /* PhotosCollectionViewController.swift in Sources */,
