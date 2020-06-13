@@ -1,0 +1,1 @@
+CameraFilter project implements and showcases the basic use of Cocoapod library 'RxSwift'. It shows we can subscribe to observables and handle any change, if any event/modification to that observable occurs. RxSwift helps in writing cleaner code, also avoiding Delegation and call back closures.
